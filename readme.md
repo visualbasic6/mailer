@@ -6,15 +6,11 @@
 
 `git clone https://github.com/visualbasic6/mailer.git`
 
-`touch subjects.txt && touch body.html && touch recipients.txt`
+`touch subject.txt && touch body.html && touch recipients.txt`
 
-`nano` whatever`.txt`
+`nano subject.txt`, `body.html` and `recipients.txt`
 
-`/subjects.txt` = 1 line, the subject
-
-`/body.html` = the email body
-
-`/recipients.txt` = email addresses, add 'email' to the top of the file
+`/subject.txt` = 1 line, the subject. `/body.html` = the email body. `/recipients.txt` = email addresses, add 'email' to the top of the file.
 
 `go run mailer.go`
 
