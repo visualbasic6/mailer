@@ -6,6 +6,8 @@
 
 `git clone https://github.com/visualbasic6/mailer.git`
 
+`cd mailer`
+
 `touch subject.txt && touch body.html && touch recipients.txt`
 
 `nano subject.txt`, `body.html` and `recipients.txt`
