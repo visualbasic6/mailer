@@ -49,7 +49,7 @@ func main() {
 	for scanner.Scan() {
 		email := strings.TrimSpace(scanner.Text())
 		message := mg.NewMessage(
-			"k@mcsheehan.com",                   // Sender
+			"you@yourdomain.com",                // Sender
 			string(subject),                     // Subject
 			"",                                  // Plaintext body
 			email,                               // Recipient
