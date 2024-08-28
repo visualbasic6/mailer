@@ -1,2 +1,0 @@
-# mailer
-simple mailgun mailer
